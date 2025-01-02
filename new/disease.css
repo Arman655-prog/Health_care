@@ -1,0 +1,26 @@
+.carousel img {
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    max-height: 500px; /* Optional: Limits the height of the carousel */
+}
+#dengue{
+    padding: 25px;
+}
+#malaria{
+    padding: 25px;
+}
+#tuber{
+    padding: 25px;
+}
+#thalass{
+    padding: 25px;
+}
+body{
+    
+    background-color: rgb(206, 230, 230);
+ 
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}

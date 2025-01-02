@@ -1,0 +1,46 @@
+
+/* Custom styles for overall content */
+body {
+    background-color: rgb(206, 230, 230);
+    font-family:poppin;
+
+}
+.container {
+    background-color:rgb(181, 199, 231);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #007bff;
+    margin-top: 20px;
+}
+p {
+    line-height: 1.6;
+}
+.section {
+    margin-bottom: 30px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}

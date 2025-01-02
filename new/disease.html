@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="disease.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Bungee+Spice&family=Jaro:opsz@6..72&family=Mate+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <title>Diseases Information</title>
+    <style>
+        body {
+          
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #d9ebf3;
+            margin: 0;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        h2 {
+            color: #34495e;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .sort-by {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sort-by label {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .sort-by select {
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .sort-by select:focus {
+            outline: none;
+            box-shadow: 0 0 5px #04AA6D;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <div class="sort-by">
+        <label for="sort-options">Sort By:</label>
+        <select id="sort-options" onchange="location = this.value;">
+            <option value="#dengue">Dengue</option>
+            <option value="#malaria">Malaria</option>
+            <option value="#tuber">Tuberculosis</option>
+            <option value="#thalass">Thalassemia</option>
+        </select>
+
+        </select>
+    </div>
+</header>
+    <h1>Diseases</h1>
+    <div id="carouselExample" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="disease page first crou.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="disease page sec crou.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="disease page third crou.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <h2 id="dengue">Dengue Fever</h2>
+    <img 
+    src="https://images.pexels.com/photos/86722/tiger-mosquito-mosquito-asian-tigermucke-sting-86722.jpeg?auto=compress&cs=tinysrgb&w=600" 
+    class="img-fluid" 
+    alt="..."
+    style="max-width: 100%; height: auto;">
+
+    <p>Dengue (break-bone fever) is a viral infection that spreads from mosquitoes to people. It is more common in
+        tropical and subtropical climates. Dengue is found in tropical and sub-tropical climates worldwide, mostly in
+        urban and semi-urban areas. While many dengue infections are asymptomatic or produce only mild illness, the
+        virus can occasionally cause more severe cases, and even death.</p>
+
+    <h3>Symptoms</h3>
+    <p>Most people with dengue have mild or no symptoms. If symptoms occur, they usually begin 4–10 days after infection
+        and last for 2–7 days. Symptoms may include:</p>
+    <ul>
+        <li>High fever (40°C/104°F)</li>
+        <li>Severe headache</li>
+        <li>Pain behind the eyes</li>
+        <li>Muscle and joint pains</li>
+        <li>Nausea</li>
+        <li>Vomiting</li>
+        <li>Swollen glands</li>
+        <li>Rash</li>
+    </ul>
+    <p>Individuals who are infected for the second time are at greater risk of severe dengue. Severe dengue symptoms
+        often come after the fever has gone away:</p>
+    <ul>
+        <li>Severe abdominal pain</li>
+        <li>Persistent vomiting</li>
+        <li>Rapid breathing</li>
+        <li>Bleeding gums or nose</li>
+        <li>Fatigue</li>
+        <li>Restlessness</li>
+        <li>Blood in vomit or stool</li>
+        <li>Being very thirsty</li>
+        <li>Pale and cold skin</li>
+        <li>Feeling weak</li>
+    </ul>
+    <p>People with these severe symptoms should get care right away.</p>
+
+    <h3>Common Treatments</h3>
+    <p>There is no specific medicine to treat dengue infection. If you think you may have dengue fever, take pain
+        relievers such as acetaminophen (Tylenol). Avoid nonsteroidal anti-inflammatory drugs (NSAIDs) such as aspirin
+        and ibuprofen (Advil, Motrin), which could worsen bleeding. Rest and drink plenty of fluids to prevent
+        dehydration.</p>
+
+    <h3>Preventions</h3>
+    <ul>
+        <li>Use mosquito repellents, even indoors.</li>
+        <li>When outdoors, wear long-sleeved shirts and long pants tucked into socks.</li>
+        <li>When indoors, use air conditioning if available.</li>
+        <li>Make sure the window and door screens are secure and free of holes. If sleeping areas are not screened or
+            air-conditioned, use mosquito nets.</li>
+        <li>To reduce the mosquito population, get rid of places where mosquitoes can breed. These include old tires,
+            cans, or flower pots that collect rain.</li>
+    </ul>
+    <div>
+        <h2 id="malaria">Malaria</h2>
+        <img 
+        src="https://images.pexels.com/photos/29232960/pexels-photo-29232960/free-photo-of-child-advocating-against-malaria-in-abuja.jpeg?auto=compress&cs=tinysrgb&w=600" 
+        alt="..." 
+        style="max-width: 100%; height: auto;">
+    
+        <p>Malaria is a life-threatening disease spread to humans by some types of mosquitoes. It is mostly found in
+            tropical countries. Malaria mostly spreads to people through the bites of some infected female Anopheles
+            mosquitoes. Blood transfusion and contaminated needles may also transmit malaria.</p>
+
+        <h3>Symptoms</h3>
+        <p>The most common early symptoms of malaria are fever, headache, and chills. Symptoms usually start within
+            10–15 days of getting bitten by an infected mosquito. Symptoms may be mild for some people, especially for
+            those who have had a malaria infection before. Severe symptoms include:</p>
+        <ul>
+            <li>Extreme tiredness and fatigue</li>
+            <li>Impaired consciousness</li>
+            <li>Multiple convulsions</li>
+            <li>Difficulty breathing</li>
+            <li>Dark or bloody urine</li>
+            <li>Jaundice (yellowing of the eyes and skin)</li>
+            <li>Abnormal bleeding</li>
+        </ul>
+        <p>People with severe symptoms should get emergency care right away. Getting treatment early for mild malaria
+            can stop the infection from becoming severe.</p>
+
+        <h3>Common Treatments</h3>
+        <p>Early diagnosis and treatment of malaria reduces disease, prevents deaths, and contributes to reducing
+            transmission. WHO recommends that all suspected cases of malaria be confirmed using parasite-based
+            diagnostic testing (through either microscopy or a rapid diagnostic test).</p>
+        <ul>
+            <li>Artemisinin-based combination therapy medicines are the most effective treatment for P. falciparum
+                malaria.</li>
+            <li>Chloroquine is recommended for treatment of infection with the P. vivax parasite only in places where it
+                is still sensitive to this medicine.</li>
+            <li>Primaquine should be added to the main treatment to prevent relapses of infection with the P. vivax and
+                P. ovale parasites.</li>
+        </ul>
+        <p>Most medicines used are in pill form. Some people may need to go to a health centre or hospital for
+            injectable medicines.</p>
+
+        <h3>Prevention</h3>
+        <ul>
+            <li>Use mosquito nets when sleeping in places where malaria is present.</li>
+            <li>Use mosquito repellents (containing DEET, IR3535, or Icaridin) after dusk.</li>
+            <li>Use coils and vaporizers.</li>
+            <li>Wear protective clothing.</li>
+            <li>Use window screens.</li>
+        </ul>
+
+        <h2 id="tuber">Tuberculosis (TB)</h2>
+        <img 
+        src="https://media.istockphoto.com/id/468719560/photo/pulmonary-tuberculosis.jpg?b=1&s=612x612&w=0&k=20&c=p2-EICZdVhAJl14jNMFOPoAiLw8lDvhpDK6t9StkTjw=" 
+        alt="..." 
+        style="max-width: 100%; height: auto;">
+    
+        <p>TB is caused by bacteria (Mycobacterium tuberculosis) and it most often affects the lungs. TB is spread
+            through the air when people with lung TB cough, sneeze, or spit. A person needs to inhale only a few germs
+            to become infected. People infected with TB bacteria have a 5–10% lifetime risk of falling ill with TB.
+            Those with compromised immune systems, such as people living with HIV, malnutrition or diabetes, or people
+            who use tobacco, have a higher risk of falling ill.</p>
+
+        <h3>Symptoms</h3>
+        <p>Common symptoms of TB disease include:</p>
+        <ul>
+            <li>Prolonged cough</li>
+            <li>Chest pain</li>
+            <li>Weakness or fatigue</li>
+            <li>Weight loss</li>
+            <li>Fever</li>
+            <li>Night sweats</li>
+        </ul>
+        <p>Often, these symptoms will be mild for many months, thus leading to delays in seeking care and increasing the
+            risk of spreading the infection to others. A person gets infected with TB bacteria that lie inactive in the
+            body. This infection can develop into TB disease if their immune system weakens. People with TB infection do
+            not show any signs or symptoms of TB.</p>
+
+        <h3>Common Treatments</h3>
+        <p>It is treated by a standard 6-month course of 4 antibiotics. Common drugs include:</p>
+        <ul>
+            <li>Isoniazid</li>
+            <li>Rifampicin</li>
+            <li>Pyrazinamide</li>
+            <li>Ethambutol</li>
+        </ul>
+        <p>To be effective, medications need to be taken daily for 4–6 months. It is dangerous to stop the medications
+            early or without medical advice as it can prompt TB bacteria in the body to become resistant to the drugs.
+        </p>
+
+        <h3>Prevention</h3>
+        <ul>
+            <li>Seek medical attention if you have symptoms like prolonged cough, fever, and unexplained weight loss as
+                early treatment for TB can help stop the spread of disease and improve your chances of recovery.</li>
+            <li>Get tested for TB if you are at increased risk, such as if you have HIV or are in contact with people
+                who have TB in your household or workplace.</li>
+            <li>TB preventive treatment (or TPT) prevents infection from becoming disease. If prescribed TPT, complete
+                the full course.</li>
+            <li>If you have TB, practice good hygiene when coughing, including avoiding contact with other people and
+                wearing a mask, covering your mouth and nose when coughing or sneezing, and disposing of sputum and used
+                tissues properly.</li>
+            <li>Special measures like respirators and ventilation are important to reduce infection in healthcare
+                facilities and other institutions.</li>
+        </ul>
+
+        <h2 id="thalass">Thalassemia</h2>
+        <img 
+        src="https://media.istockphoto.com/id/1824435732/photo/blood-sampling-tube.jpg?b=1&s=612x612&w=0&k=20&c=P3NDWS7zKlqN-Zk8TCAIQefOgZ8O838Vm88I4n8T5Os=" 
+        alt="..." 
+        style="max-width: 100%; height: auto;">
+    
+        <p>Thalassemia is a genetic blood disorder characterized by the body’s inability to produce enough healthy
+            hemoglobin, a protein in red blood cells that carries oxygen. This leads to anemia (low red blood cell
+            count) and other complications.</p>
+
+        <h3>Symptoms</h3>
+        <p>The symptoms of thalassemia vary depending on the type of thalassemia. In infants with beta thalassemia and
+            some types of alpha thalassemia, symptoms usually appear after the age of 6 months. This is because neonates
+            have a different type of hemoglobin called fetal hemoglobin. Symptoms may include:</p>
+        <ul>
+            <li>Jaundice and pale skin</li>
+            <li>Drowsiness and fatigue</li>
+            <li>Chest pain</li>
+            <li>Shortness of breath</li>
+            <li>Rapid heartbeat</li>
+            <li>Delayed growth</li>
+            <li>Dizziness and faintness</li>
+            <li>Greater susceptibility to infection</li>
+        </ul>
+
+        <h3>Common Treatments</h3>
+        <p>Treatment depends on the type and severity of thalassemia. Options include:</p>
+        <ul>
+            <li><strong>Blood transfusions:</strong> People with thalassemia major will need between eight and 12
+                transfusions a year. Those with less severe thalassemia will need up to eight transfusions each year or
+                more in times of stress, illness, or infection.</li>
+            <li><strong>Iron chelation:</strong> This involves removing excess iron from the bloodstream. Deferoxamine
+                is prescribed, a medication given by injection under the skin or into the muscle.</li>
+            <li><strong>Surgery:</strong> This may be necessary to correct bone abnormalities.</li>
+        </ul>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
